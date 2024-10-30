@@ -3,14 +3,12 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 from datetime import datetime
-import tkinter as tk
 
 # Page configuration
 st.set_page_config(
     page_title="Comunidades en el Mapa",
     page_icon="📍",
     layout="wide",
-    root.configure(bg="#594C32"),
 )
 
 
