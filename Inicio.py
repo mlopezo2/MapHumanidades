@@ -10,7 +10,7 @@ st.set_page_config(
     page_title="Comunidades en el Mapa",
     page_icon="📍",
     layout="wide",
-    root.configure(bg="#594C32")
+    root.configure(bg="#594C32"),
 )
 
 
