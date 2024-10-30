@@ -6,10 +6,13 @@ from datetime import datetime
 
 # Page configuration
 st.set_page_config(
-    page_title="Análisis de Sensores - Mi Ciudad",
-    page_icon="📊",
+    page_title="Comunidades en el Mapa",
+    page_icon="📍",
     layout="wide"
+    background-color
 )
+
+
 
 # Custom CSS
 st.markdown("""
@@ -24,7 +27,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title and description
-st.title('📊 Análisis de datos de Sensores en Mi Ciudad')
+st.title('📍 Comunidades al Margen de las Carreteras')
 st.markdown("""
     Esta aplicación permite analizar datos de temperatura y humedad
     recolectados por sensores ESP32 en diferentes puntos de la ciudad.
