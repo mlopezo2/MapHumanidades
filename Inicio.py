@@ -8,8 +8,7 @@ from datetime import datetime
 st.set_page_config(
     page_title="Comunidades en el Mapa",
     page_icon="📍",
-    layout="wide"
-    background-color
+    layout="wide",
 )
 
 
