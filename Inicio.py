@@ -50,8 +50,14 @@ sikuani_location = pd.DataFrame({
     'location': ['Aseinpome']
 })
 
+nukak_location = pd.DataFrame({
+    'lat': [1.5],
+    'lon': [-71.0],
+    'location': ['Aseinpome']
+})
+
 # Combine the two DataFrames
-locations = pd.concat([yuripasse_location, kubeo_location, sikuani_location], ignore_index=True)
+locations = pd.concat([yuripasse_location, kubeo_location, sikuani_location, nukak_location], ignore_index=True)
 
 
 #Display map with both locations
