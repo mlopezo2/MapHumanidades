@@ -47,13 +47,13 @@ kubeo_location = pd.DataFrame({
 sikuani_location = pd.DataFrame({
     'lat': [3.2],
     'lon': [-70.6],
-    'location': ['Aseinpome']
+    'location': ['Orinoquía']
 })
 
 nukak_location = pd.DataFrame({
     'lat': [1.5],
     'lon': [-71.0],
-    'location': ['Aseinpome']
+    'location': ['Guaviare']
 })
 
 # Combine the two DataFrames
