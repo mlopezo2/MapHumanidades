@@ -43,9 +43,8 @@ kubeo_location = pd.DataFrame({
 
 # Display map
 st.subheader("📍 Ubicación de algunas Comunidades")
-st.map(yuripasse_location, kubeo_location)
-
-#st.map(yuripasse_location, zoom=15)
+st.map(yuripasse_location, zoom=15)
+st.map(kubeo_location, zoom=15)
 
 
 
