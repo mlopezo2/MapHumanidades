@@ -35,7 +35,18 @@ yuripasse_location = pd.DataFrame({
     'location': ['Rio Pure']
 })
 
+kubeo_location = pd.DataFrame({
+    'lat': [0.6107],
+    'lon': [-70.2686],
+    'location': ['Aseinpome']
+})
+
 # Display map
-st.subheader("📍 Ubicación Yuri-Passé")
-st.map(yuripasse_location, zoom=15)
+st.subheader("📍 Ubicación de algunas Comunidades")
+st.map(yuripasse_location, kubeo_location)
+
+#st.map(yuripasse_location, zoom=15)
+
+
+
 
