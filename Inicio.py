@@ -41,15 +41,21 @@ kubeo_location = pd.DataFrame({
     'location': ['Aseinpome']
 })
 
+sikuani_location = pd.DataFrame({
+    'lat': [3.2],
+    'lon': [-70.6],
+    'location': ['Aseinpome']
+})
+
 # Combine the two DataFrames
-locations = pd.concat([yuripasse_location, kubeo_location], ignore_index=True)
+locations = pd.concat([yuripasse_location, kubeo_location, sikuani_location], ignore_index=True)
 
 # Display map with both locations
 st.subheader("📍 Ubicación de algunas Comunidades")
 st.map(locations, zoom=5)
 
 # Display map
-#st.subheader("📍 Ubicación de algunas Comunidades")
+#st.subheader("📍 Ubicación de algunas comunidades")
 #st.map(yuripasse_location, zoom=15)
 #st.map(kubeo_location, zoom=15)
 
