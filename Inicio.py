@@ -30,8 +30,8 @@ st.title('📍 Comunidades al Margen de las Carreteras')
 
 # Create map data for EAFIT
 yuripasse_location = pd.DataFrame({
-    'lat': [1.335],
-    'lon': [70.933],
+    'lat': [1.30],
+    'lon': [71.40],
     'location': ['Rio Pure']
 })
 
