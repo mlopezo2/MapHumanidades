@@ -4,6 +4,9 @@ from PIL import Image
 import numpy as np
 from datetime import datetime
 
+import folium
+from folium.plugins import MarkerCluster
+
 # Page configuration
 st.set_page_config(
     page_title="Comunidades en el Mapa",
