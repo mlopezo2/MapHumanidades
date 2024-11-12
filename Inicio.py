@@ -53,23 +53,10 @@ sikuani_location = pd.DataFrame({
 # Combine the two DataFrames
 locations = pd.concat([yuripasse_location, kubeo_location, sikuani_location], ignore_index=True)
 
-# Create a folium map centered on the average location
-m = folium.Map(location=[locations['lat'].mean(), locations['lon'].mean()], zoom_start=5, tiles='Stamen Terrain')
 
-# Add marker cluster to the map
-marker_cluster = MarkerCluster().add_to(m)
-
-# Add locations to the map with markers
-for idx, row in locations.iterrows():
-    folium.Marker([row['lat'], row['lon']], popup=row['location']).add_to(marker_cluster)
-
-# Render map in Streamlit
+Display map with both locations
 st.subheader("📍 Ubicación de algunas Comunidades")
-st.write(m._repr_html_(), unsafe_allow_html=True)
-
-# Display map with both locations
-#st.subheader("📍 Ubicación de algunas Comunidades")
-#st.map(locations, zoom=5)
+st.map(locations, zoom=5)
 
 # Display map
 #st.subheader("📍 Ubicación de algunas comunidades")
