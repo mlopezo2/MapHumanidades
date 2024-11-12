@@ -30,12 +30,12 @@ st.title('📍 Comunidades al Margen de las Carreteras')
 
 # Create map data for EAFIT
 yuripasse_location = pd.DataFrame({
-    'lat': [-1.30],
-    'lon': [-71.40],
+    'lat': [-2.45],
+    'lon': [-69.3],
     'location': ['Rio Pure']
 })
 
 # Display map
-st.subheader("📍 Ubicación de los Sensores - Universidad EAFIT")
+st.subheader("📍 Ubicación Yuri-Passé")
 st.map(yuripasse_location, zoom=15)
 
