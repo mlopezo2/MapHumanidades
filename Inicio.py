@@ -54,7 +54,7 @@ sikuani_location = pd.DataFrame({
 locations = pd.concat([yuripasse_location, kubeo_location, sikuani_location], ignore_index=True)
 
 
-Display map with both locations
+#Display map with both locations
 st.subheader("📍 Ubicación de algunas Comunidades")
 st.map(locations, zoom=5)
 
