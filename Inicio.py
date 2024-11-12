@@ -61,7 +61,8 @@ locations = pd.concat([yuripasse_location, kubeo_location, sikuani_location, nuk
 
 
 #Display map with both locations
-st.subheader("📍 Ubicación de algunas Comunidades. En este mapa interactivo podrás explorar algunos de los puntos de ubicación aproximados de las comunidades investigadas por el proyecto. Abordamos un rango posible de ubicaciones debido a la poca información sobre la ubicación precisa de estas comunidades. ¡Explóralo libremente!")
+st.subheader("📍 Ubicación de algunas Comunidades.")
+st.text("En este mapa interactivo podrás explorar algunos de los puntos de ubicación aproximados de las comunidades investigadas por el proyecto. Abordamos un rango posible de ubicaciones debido a la poca información sobre la ubicación precisa de estas comunidades. ¡Explóralo libremente!")
 st.map(locations, zoom=5)
 
 # Display map
