@@ -29,13 +29,13 @@ st.markdown("""
 st.title('📍 Comunidades al Margen de las Carreteras')
 
 # Create map data for EAFIT
-eafit_location = pd.DataFrame({
-    'lat': [6.2006],
-    'lon': [-75.5783],
-    'location': ['Universidad EAFIT']
+yuripasse_location = pd.DataFrame({
+    'lat': [2.785],
+    'lon': [69.686],
+    'location': ['Rio Pure']
 })
 
 # Display map
 st.subheader("📍 Ubicación de los Sensores - Universidad EAFIT")
-st.map(eafit_location, zoom=15)
+st.map(yuripasse_location, zoom=15)
 
